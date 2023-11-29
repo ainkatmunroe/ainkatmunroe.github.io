@@ -1,0 +1,137 @@
+.btn.btn-about{
+	height: 25px;
+    line-height: 25px;
+}
+.mtop10{
+	margin-top:10px
+}
+.skills-bar{
+margin-top:40px;
+}
+.progress{
+	margin-bottom:40px;
+}
+
+.progress-bar {
+	background-color: #ff0000;
+}
+.socialimage{
+	width:40px;
+}
+.whatsappicon{
+	position: fixed;
+	bottom:20px;
+	right:20px;
+	
+}
+.whatsappicon img{
+    height: 60px;
+}
+
+@media only screen and (min-width:768px){
+	.sliderimg{
+		width:488px !important; 
+		text-align: center !important;
+		margin-left: 300px;
+		display: block;
+	}
+	.sliderimg1{
+		width:108px !important; 
+		height:108px !important; 
+		text-align: center !important;
+		margin-left: 480px;
+	}
+	.owl-theme .owl-dots, .owl-theme .owl-nav {
+		text-align: left;
+		width: 100%;
+		display: block;
+		margin-left: 550px;
+	}
+	.item{
+		padding:20px;
+		text-align: center;
+	}
+}
+@media only screen and (max-width:767px){
+	.sliderimg{
+		width:250px !important; 
+		text-align: center !important;
+		display: block;
+		margin-left:20px;
+	}
+	.sliderimg1{
+		width:108px !important; 
+		height:108px !important; 
+		text-align: center !important;
+		margin-left:80px;
+	}
+.contactform {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+	.h3, h3{
+		font-size: 1.5rem;
+	}
+	.title-section {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 30px 0 0 0;
+}
+	.item{
+		padding:20px;
+		text-align: center;
+	}
+
+}
+
+
+
+
+
+@media only screen and (min-width:500px) and (max-width:767px){
+    .title-bg {
+    font-size: 40px !important;
+    }
+    	.sliderimg{
+		width:250px !important; 
+		text-align: center !important;
+		display: block;
+		margin-left:180px;
+	}
+	.sliderimg1{
+		width:108px !important; 
+		height:108px !important; 
+		text-align: center !important;
+		margin-left:200px;
+	}
+	.title-section h1 {
+    font-size: 40px!important;
+    margin-bottom: 30px;
+	}
+}
+
+
+
+/* ================================================== */
+/* contact form */
+/* ================================================== */
+	.error {
+	padding:20px;
+	border:none;
+	display: none;
+	color: #d9534f;
+	border:solid 1px #d9534f;
+	font-size: 12px;
+	}
+	.success {
+	padding:20px;
+	display: none;
+	color: #5cb85c;
+	border:solid 1px #5cb85c;
+	margin-bottom: 20px;
+	}
+	.error img {
+	vertical-align: top;
+	}
+	
